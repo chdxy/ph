@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <!--输入：  meta:vp  按下tab键 自动生成   -->
+
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <style type="text/css">
+    html{
+        font-size: 10px;
+    }
+</style>
+    <script>
+        //REM适配
+        ~(function(desW){ // 设计稿的宽度
+            var winW = document.documentElement.clientWidth; // 浏览器的宽度
+            var n = winW/desW;
+            document.documentElement.style.fontSize = n*100+"px";  // 100设置的
+        })(640);
+        //  640 设计稿的宽度
+        //（设计稿的宽度/100） =  （设备的宽度/  font-size的大小）
+        //  winW/desW  = font-size/100  ;
+
+    </script>
+</head>
+<body>
+ <div class="main">
+    <div class="music">
+        <audio src="img/Colbie Caillat - Try.flac" loop preload="none" id="audioMusic"></audio>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!--第一张-->
+            <div class="swiper-slide slide1" >
+                <img src="img/1.jpg" alt=""/>
+                <img src="img/3.gif" alt=""/>
+                <img src="img/4 (2).png" alt="">
+                <div class="Sailng">乘风破浪会有时</div>
+                <div class="direct">直挂云帆济沧海</div>
+                <div class="slide1name">陈恒达</div>
+            </div>
+            <!--第二张-->
+            <div class="swiper-slide slide2" >
+                <img src="img/5.jpg" alt=""/>
+                <img src="img/6%20(2).png" alt=""/>
+                <img src="img/7 (2).png" alt=""/>
+                 <img src="img/8 (2).png" alt=""/>
+                 <img src="img/10.jpg" alt=""/>
+                <div class="IntroduceMyself">自我鉴赏</div>
+                <div class="slide2Name">陈恒达</div>
+                <div class="aphorism">
+                    <p> &nbsp;&nbsp;在生活中，我尊敬他人，能够和别人友</p>
+                    <p>好相处，我擅长快速学习新知识，希望您</p>
+                    <p>给我这次机会，我有充足的信心在短时间</p>
+                    <p>内胜任工作，谢谢。我性格开朗,思维</p>
+                    <p>活跃；拥有年轻人的潮起澎湃，做事有</p>
+                    <p>责任任心。</p>
+                </div>
+            </div>
+            <!--第三张-->
+               <div class="swiper-slide slide3">
+                   <img src="img/5.jpg" alt=""/>
+                   <img src="img/6%20(2).png" alt=""/>
+                   <img src="img/7%20(2).png" alt=""/>
+                   <img src="img/12.png" alt=""/>
+                   <img src="img/13.png" alt=""/>
+                   <img src="img/12.png" alt=""/>
+
+
+                   <div id="personaldetails">个人信息</div>
+                   <div id="name">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：陈恒达</div>
+                   <div id="birthday">生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日：1992/9/2</div>
+                   <div id="schoolofgraduation">毕业学校：郑州科技学院</div>
+                   <div id="educationbackground">学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;历：本科</div>
+                   <div id="major">专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业：计算机科学与技术</div>
+                   <div id="hobby">爱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好：旅游，摄影</div>
+                   <!--<div id="emailaddress">电子邮箱：17316228549 @163.com</div>-->
+                   <div id="joborientation">就业方向：web前段</div>
+                   <div id="SpousesTel">联系电话</div>
+                   <div id="Phone">17316228549</div>
+                </div>
+                <!--第四张-->
+            <div class="swiper-slide slide4">
+                <img src="img/5.jpg" alt=""/>
+                <img src="img/6%20(2).png" alt=""/>
+                <img src="img/7 (2).png" alt=""/>
+                <img src="img/14.png" alt=""/>
+                <img src="img/15.png" alt=""/>
+                <img src="img/15.png" alt=""/>
+                <img src="img/15.png" alt=""/>
+
+                <div id="professionalskill">工作经历</div>
+                <div id="professionalskill-l-t">
+                    <p>2014-2017</p><br/>
+                    <p>web前端</p>
+                </div>
+                <div id="professionalskill-r-t">
+                    <h5>北京业通信息技术 有限公司</h5>
+                    <p>工程师</p>
+                    <p></p>
+                </div>
+                <div id="professionalskill-l-b">
+                    <p>2013-2014</p><br/>
+                    <p>web前端</p>
+                </div>
+                <div id="professionalskill-r-b">
+                    <h5>郑州厚普科技有限 公司</h5>
+                    <p>工程师</p>
+                    <p></p>
+                </div>
+            </div>
+            <!--第五张-->
+            <div class="swiper-slide slide5">
+                <img src="img/5.jpg" alt=""/>
+                <img src="img/6%20(2).png" alt=""/>
+                <img src="img/7%20(2).png" alt=""/>
+                <img src="img/16.png" alt=""/>
+                <img src="img/17.png" alt=""/>
+                <img src="img/18.png" alt=""/>
+                <img src="img/19.png" alt=""/>
+                <img src="img/20.png" alt=""/>
+
+                <div class="professionalability">专业能力</div>
+                <div class="organization">组织管理</div>
+                <div class="organization-content"></div>
+                <div class="organization-content-c"></div>
+
+                <div class="bargainingtheory">合作谈判</div>
+                <div class="bargainingtheory-content"></div>
+                <div class="bargainingtheory-content-c"></div>
+
+                <div class="communicationskills">沟通技巧</div>
+                <div class="communicationskills-content"></div>
+                <div class="communicationskills-content-c"></div>
+
+                <div class="Englishlevel">交流水平</div>
+                <div class="Englishlevel-content"></div>
+                <div class="Englishlevel-content-c"></div>
+
+                <div class="officesoftware">办公软件</div>
+                <div class="officesoftware-content"></div>
+                <div class="officesoftware-content-c"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/swiper.min.js"></script>
+
+<script>
+
+
+    //初始化swiper
+    var mySwiper = new Swiper(".swiper-container",{
+        direction : "vertical",
+        loop:true,
+        onSlideChangeEnd :function(swiper){
+            var slideAry = swiper.slides; /*所有的滑块*/
+            var trueSlideNum = slideAry.length-2;/*真实的滑块的个数*/
+            var lastNum =  trueSlideNum+1;/*最后一个滑块的索引*/
+            /*获得当前滑块的索引*/
+            var curIn = swiper.activeIndex;
+            [].forEach.call(slideAry,function(item,index){
+                item.id = null;
+                if(curIn == index){
+                    /*第一张跟真实滑块最后一张是一样的，最后一张跟真实滑块的第一张是一样*/
+                    switch(curIn){
+                        case 0 :
+                            item.id = "page"+trueSlideNum;
+                            break;
+                        case lastNum :
+                            item.id  = "page1";
+                            break;
+                        default :
+                            item.id = "page"+curIn;
+
+                    }
+                }
+
+            })
+
+        }
+    })
+
+    ~(function(){
+        var music = document.querySelector(".music");
+        var audioMusic = document.querySelector("#audioMusic");
+        music.addEventListener("click",function(){
+            if(audioMusic.paused){/*判断是否是停止*/
+                audioMusic.play();
+                music.className = "music musicMove";
+                return;
+            }
+            audioMusic.pause();
+            music.className = "music";
+            music.style.opacity  = 1;
+        });
+        window.setTimeout(function(){
+            audioMusic.play();/*播放*/
+            /*边播放边缓存，触发事件canplay*/
+            audioMusic.addEventListener("canplay",function(){
+                music.className = "music musicMove";
+            })
+        },1000)
+
+
+    })()
+
+</script>
